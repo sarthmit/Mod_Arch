@@ -36,10 +36,6 @@ args = parser.parse_args()
 sns.color_palette("dark", as_cmap=True)
 sns.set(style="darkgrid")
 
-args.seed += int(os.environ['SLURM_PROCID'])
-args.data_seed = args.seed % 5
-args.seed = args.seed // 5
-
 def set_seed(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)

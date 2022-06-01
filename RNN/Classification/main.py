@@ -34,10 +34,6 @@ parser.add_argument('--scheduler', action='store_true', default=False)
 parser.add_argument('--seed', type=int, default=0)
 args = parser.parse_args()
 
-args.seed += int(os.environ['SLURM_PROCID'])
-args.data_seed = args.seed % 5
-args.seed = args.seed // 5
-
 def set_seed(seed):
     torch.manual_seed(seed)
     torch.cuda.manual_seed(seed)
