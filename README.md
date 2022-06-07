@@ -20,5 +20,14 @@ We refer the readers to the respective sub-directories for details regarding eac
 Please do cite our work if you build up on it or find it useful and feel free to create an issue or contact me at `sarthmit@gmail.com` in case of any questions.
 
 ```
-todo
+@misc{https://doi.org/10.48550/arxiv.2206.02713,
+  doi = {10.48550/ARXIV.2206.02713},
+  url = {https://arxiv.org/abs/2206.02713},
+  author = {Mittal, Sarthak and Bengio, Yoshua and Lajoie, Guillaume},
+  keywords = {Machine Learning (cs.LG), Artificial Intelligence (cs.AI), FOS: Computer and information sciences, FOS: Computer and information sciences},
+  title = {Is a Modular Architecture Enough?},
+  publisher = {arXiv},
+  year = {2022},
+  copyright = {arXiv.org perpetual, non-exclusive license}
+}
 ```
