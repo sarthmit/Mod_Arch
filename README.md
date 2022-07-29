@@ -1,6 +1,6 @@
 ## Is a Modular Architecture Enough?
 ___
-This repository contains the official implementation for the paper **[Is a Modular Architecture Enough?](to-do)**
+This repository contains the official implementation for the paper **[Is a Modular Architecture Enough?](https://arxiv.org/abs/2206.02713)**
 
 
 <details>
